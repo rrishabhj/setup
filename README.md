@@ -23,7 +23,9 @@ It consists of setting up common tools, apps,  python and ruby development setup
     sublime package : djanerio allautocomplete emmet sublimepythonide sidebar enhancement  
 ### Vim
     $ sudo apt-get install vim
-
+### Atom
+	$ sudo add-apt-repository ppa:webupd8team/atom
+    $ sudo apt update; sudo apt install atom
 
 
 ---
@@ -225,7 +227,15 @@ It consists of setting up common tools, apps,  python and ruby development setup
 	$ sudo apt-get install oracle-java8-installer
 	$ java -version
 	$ sudo apt-get install oracle-java8-set-default
+    
+## NetBeans
+If Universe repository in not allowed, allow it and update:
+	$ sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+	$ sudo apt-get update
 
+Install NetBeans with:
+	$ sudo apt-get install netbeans
+    
 ## Android Studio
 	$ sudo apt-add-repository ppa:paolorotolo/android-studio
 	$ sudo apt-get update
@@ -404,6 +414,13 @@ It consists of setting up common tools, apps,  python and ruby development setup
 	$ sudo apt-get update
 	$ sudo apt-get -y install r-base
 	$ R
+
+# Open System Moniter
+	$ sudo apt-get install gnome-system-monitor
+    
+# Synaptic
+	$ sudo apt update
+	$ sudo apt-get install synaptic
 
 ---
 # Finishing up
